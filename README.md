@@ -1,8 +1,8 @@
 # Welcome to WebDev Basics 19.2
-<img src="https://developers.google.com/community/dsc/images/dsc_lockup.png" height="200px">
+<img src="https://developers.google.com/community/dsc/images/dsc_lockup.png" height="100px">
 
 ## CSS: Workshop by DSC JIIT NOIDA
-<img src="https://smallimg.pngkey.com/png/small/141-1415392_css3-css-logo-transparent-background.png" width="150px" height="200px">
+<img src="https://smallimg.pngkey.com/png/small/141-1415392_css3-css-logo-transparent-background.png" height="200px">
 
 
 ## How to use this material?
@@ -10,10 +10,9 @@ Just, play around with website and read comments properly and check out each pro
 
 ## Topics Covered
 
- - Css introduction
- - Basic Properties
- - Selectors
- - Media Queries
+ - More Properties
+ - Flexbox
+ - Bootstrap (Basic)
  
  ## Contributors 
   
