@@ -1,5 +1,5 @@
 # Welcome to WebDev Basics 19.2
-<img src="DSCJIITNOIDA.png"> 
+<img src="https://smallimg.pngkey.com/png/small/141-1415392_css3-css-logo-transparent-background.png" height="200px">
 
 ## CSS: Workshop by DSC JIIT NOIDA
 <img src="https://smallimg.pngkey.com/png/small/141-1415392_css3-css-logo-transparent-background.png" width="150px" height="200px">
