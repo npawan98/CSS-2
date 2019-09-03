@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        Bootstrap Demo
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</head>
+<body>
+
+        <!-- <nav class="navbar fixed-top navbar-dark bg-dark "> -->
+                <!-- Navbar content -->
+                <!-- <h1 style="color: #e3f2fd">DSC-Jiit Noida</h1> -->
+                <!-- <img src="images/logo.png" height="50px" width="350px">
+                <button type="button" class="btn btn-success">Signin</button> 
+                </nav> -->
+              <!-- </nav> -->
+              
+              <!-- <nav class="navbar navbar-dark bg-primary"> -->
+                <!-- Navbar content -->
+                
+              <!-- </nav> -->
+              
+              <!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd;"> -->
+                <!-- Navbar content -->
+              <!-- </nav> -->
+              <nav class="navbar fixed-top navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#"><span onclick="openNav()"><img src="images/logo.png" height="50px" width="350px"></span></a>
+                    <a class="navbar-button" href="#"><button type="button" class="btn btn-success">Signin</button></a>
+                  </nav>
+              <br>
+              <br>
+              <br>
+    <p>
+    <center>
+   <h1 style="color:indigo">Bootstrap Basics</h1>
+   
+   <!-- <p><a href="#" class="text.bg-primary">Primary link</a></p> -->
+   </center>
+   </p>
+   <br>
+   <div style="padding-left: 50px">
+    <h1> What is Bootstrap?</h1>
+    <p>Bootstrap is a front-end framework used to design responsive web pages and web applications.
+     It takes a mobile-first approach to web development. Bootstrap includes pre-built CSS styles and classes,
+      plus some JavaScript functionality.
+       Bootstrap uses a responsive 12 column grid layout and has design templates for:</p>
+    <ul>
+          <li> buttons</li>
+           <li>images</li>
+           <li> tables</li>
+           <li>forms</li>
+           <li> navigation</li>
+    </ul>
+    </div>
+   <br>
+   <hr>
+   <!-- Bootstrap 4 has some contextual classes that can be used to provide "meaning through colors".
+
+The classes for text colors are: .text-muted, .text-primary, .text-success, .text-info, .text-warning,
+ .text-danger, .text-secondary, .text-white, .text-dark, .text-body (default body color/often black)
+  and .text-light: -->
+  <div class="button" style="padding-left: 50px">
+   <p class="text-success" style="font-size: 44px">Bootstrap Buttons</p>
+   <br>
+    <p>Active Button</p>
+    <button type="button" class="btn btn-primary Active">Active Primary</button><br><br>
+    <p>Disabled Button</p>
+    <button type="button" class="btn btn-secondary disabled">Disabled Primary</button>
+    <br><br>
+    <h2>Button Group</h2>
+    <p>The .btn-group class creates a button group:</p>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-secondary">Samsung</button>
+      <button type="button" class="btn btn-outline-success">Sony</button>
+    </div><br><br>
+    <h2>Outline buttons</h2>
+    <button type="button" class="btn btn-outline-primary">Login</button>
+  <button type="button" class="btn btn-outline-secondary">Signup</button>
+  <h2>BlockLevel Buttons</h2>
+  <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+  </div>
+
+ 
+</div>
+<hr>
+<br>
+<div style="padding-left: 50px">
+<h2>Bootstrap images</h2><br>
+
+<img src="images/p1.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"><span style="padding-left: 100px"></span>
+<img src="images/p1.jpg" class="img-thumbnail" alt="Cinque Terre" width="250px" height="250px">
+
+<hr>
+<br>
+
+<!-- alert -->
+
+<div class="container">
+        <h2>Alerts</h2>
+        <p>The button with class="close" and data-dismiss="alert" is used to close the alert box.</p>
+        <p>The alert-dismissible class adds some extra padding to the close button.</p>
+        <div class="alert alert-success alert-dismissible">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+      </div>
+
+
+<!-- <h2>Bootstrap Embed</h2>
+<div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=OcCNI7-3Yag&t=" allowfullscreen></iframe>
+      </div>
+
+
+</div> -->
+<!-- delete this -->
+
+<!-- The overlay -->
+<div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <br>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#button">Bootstrap Buttons</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      
+      </div>
+      
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <!-- <span onclick="openNav()">open</span> -->
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+
+</script>
+
+
+
+
+</html>
