@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      *{
+        /* font-family: 'Raleway', sans-serif; */
+        /* font-size: 20px; */
+      }
+      body{
+        margin: 30px;
+        background-image: url('background.jpg');
+        background-size: cover;
+      }
+      .container{
+        background-color: green;
+        height: 100px;
+        width: 150px;
+      }
+      ul{
+        font-size:25px;
+      }
+      .sample1{
+        height:100px;
+        width:100px;
+        background:red;
+      }
+      #sample2{
+        height:100px;
+        width:100px;
+        background:blue;
+      }
+      h3, h4{
+        color:brown;
+      }
+      b  p{
+        color:magenta;
+      }
+      .hoverClass{
+        height:100px;
+        width:200px;
+        background:green;
+      }
+      .hoverClass:hover{
+        background:red;
+      }
+      ::selection{
+        background:white;
+        color:red;
+      }
+      p+div{
+        height:100px;
+        width:300px;
+        background:blue;
+      }
+      [src]{
+        height:200px;
+        width:300px;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Selectors</title>
+  </head>
+  <body bgcolor='#e0e0e0'>
+    <center><h1 style="font-family: 'Lexend Deca', sans-serif;"><u >Advanced Selectors</u></h1></center><br>
+      <center><h3><a href="https://www.w3schools.com/cssref/css_selectors.asp">Reference: https://www.w3schools.com/cssref/css_selectors.asp</a></h3></center><br>
+      <ul type='circle'>
+        <li><font size=7>*</font> => Selects all elements (not used quite often, overrides everything except ids)</li><br>
+        <li><font size=5>Tag Selector</font> => Selects specific tag</li><br>
+        <li><font size=5>.Class Selector</font> => Selects specific class</li>
+        <center><div class="sample1"></div></center><br>
+        <li><font size=5>#ID Selector</font> => Selects specific id</li>
+        <center><div id='sample2'></div></center><br>
+        <li><font size=5>Element,Element</font> => Selects more than 1 element</li>
+        <h3>Hello</h3>
+        <h4>World</h4>
+        <li><font size=5>Element1 Element2</font> => Selects element1 containing element 2</li>
+        <b><p>I am child of b tag</p></b><br>
+        <li><font size=5>:Hover</font> => Adds style when we hover over the element</li>
+        <center><div class="hoverClass"></div></center><br>
+        <li><font size=5>::Selection</font> => Adds style when text is selected</li><br>
+        <li><font size=5>Element1+Element2</font> => Selects all element2 elements that are placed immediately after element1 elements</li><br>
+        <p>Hello</p><div></div><br>
+        <li><font size=5>[attribute1]</font> => Adds style to those elements containing attribute1</li><br>
+        <center><img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?cs=srgb&dl=beach-exotic-holiday-248797.jpg&fm=jpg"><center>
+      </ul>
+      <hr color='black' size=2 width=100%>
+
+  </body>
+</html>
